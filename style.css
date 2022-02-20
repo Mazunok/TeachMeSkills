@@ -49,3 +49,15 @@ text-decoration: underline;
     flex-direction: row;
 }
     
+.information{
+    width: 459px;
+}
+
+h1{
+    font-family: 'DM Sans';
+    font-size: 80px;
+}
+
+.img{
+    width: 610px;
+}
