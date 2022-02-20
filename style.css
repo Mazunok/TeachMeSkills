@@ -1,7 +1,15 @@
-*{
+body{
     margin: 0px;
     padding: 0px;
     max-width: 1440px;
+}
+
+.button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
 }
 
 .page-header{
@@ -11,17 +19,33 @@
     justify-content: space-around;
 }
 
-.list{
+.nav-list{
     list-style: none;
     display: flex;
     align-items: center;
-   
 }
 
-li{
+.nav-item{
     padding: 15px;
     font-family: 'DM Sans';
     font-size: 15px;
     font-weight: 400;
+} 
+
+.nav-link{
+    text-decoration: none;
+    color: black;
 }
 
+
+.nav-link:hover{
+text-decoration: underline;
+}
+
+
+.block{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+    
