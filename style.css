@@ -3,8 +3,8 @@ body{
     padding: 0px;
     max-width: 1440px;
     overflow-x: hidden;
-
 }
+
 .button{
     padding: 0;
     border: none;
@@ -68,7 +68,6 @@ body{
     padding-bottom: 10px;
     margin-right: 30px;
 }
-
 
 .nav-link:hover{
 border-bottom: 2px solid #5454D4;
@@ -152,8 +151,9 @@ border-bottom: 2px solid #5454D4;
 .logotips{
     display: flex;
     justify-content: space-around;
+    width: 1350px;
     padding-top: 100px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .index-block{
