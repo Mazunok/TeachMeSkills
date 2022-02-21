@@ -21,8 +21,6 @@ body{
     background-color: transparent;
 }
 
-
-
 .block{
     padding: 0;
     margin: 0;
@@ -142,3 +140,9 @@ text-decoration: underline;
     padding-left: 30px;
 }
 
+.logotips{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-left: 30px;
+}
