@@ -35,7 +35,7 @@ body{
 
 .nav-item{
     padding: 15px;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
 } 
@@ -55,7 +55,7 @@ text-decoration: underline;
     height: 60px;
     border-radius: 10px;
     background-color: #FF7143;
-    font-family: 'DM sans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     font-weight: 700;
     color: #FFFFFF;
@@ -74,8 +74,10 @@ text-decoration: underline;
 }
 
 h1{
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 80px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
 .img{
@@ -84,9 +86,8 @@ h1{
 }
 
 .text{
-    padding: 15px;
     width: 459px;
-    font-family: 'Mulish';
+    font-family: 'Mulish', sans-serif;
     font-size:20px;
 }
 
@@ -95,9 +96,18 @@ h1{
     height: 60px;
     border-radius: 10px;
     background-color: #5454D4;
-    font-family: 'DM sans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     font-weight: 700;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.down-arrow{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-arrow{
+    padding: 15px;
 }
