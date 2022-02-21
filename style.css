@@ -12,6 +12,14 @@ body{
     background-color: transparent;
 }
 
+.btn-main{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
 .page-header{
     display: flex;
     flex-direction: row;
@@ -80,4 +88,16 @@ h1{
     width: 459px;
     font-family: 'Mulish';
     font-size:20px;
+}
+
+.button-start{
+    width: 211px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #5454D4;
+    font-family: 'DM sans';
+    font-size: 17px;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
 }
