@@ -1,9 +1,10 @@
 body{
-    margin: 0px;
+    margin: auto;
     padding: 0px;
     max-width: 1440px;
-}
+    overflow-x: hidden;
 
+}
 .button{
     padding: 0;
     border: none;
@@ -20,21 +21,39 @@ body{
     background-color: transparent;
 }
 
+
+
+.block{
+    padding: 0;
+    margin: 0;
+}
+
 .page-header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 100px;
+    width: 1069.9px;
+}
+
+.icon{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.list{
+    padding: 0px 30px;
 }
 
 .nav-list{
     list-style: none;
     display: flex;
-    align-items: center;
+    align-items:center;
 }
 
 .nav-item{
-    padding: 15px;
+    padding: 25px;
     font-family: 'DM Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -50,6 +69,10 @@ body{
 text-decoration: underline;
 }
 
+.btn-head{
+    padding-left: 60px;
+}
+
 .button{
     width: 211px;
     height: 60px;
@@ -62,18 +85,19 @@ text-decoration: underline;
     cursor: pointer;
 }
 
-
 .block{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    padding-left: 30px;
 }
     
 .information{
     width: 459px;
+    padding:30px;
 }
 
-h1{
+.title{
     font-family: 'DM Sans', sans-serif;
     font-size: 80px;
     padding-left: 30px;
@@ -85,10 +109,21 @@ h1{
     padding:30px ;
 }
 
+.hero{
+    padding: 60px;
+}
+
 .text{
     width: 459px;
     font-family: 'Mulish', sans-serif;
     font-size:20px;
+    padding-left: 30px;
+}
+
+.btn-main{
+    display: flex;
+    justify-content: left;
+    padding-left: 60px;
 }
 
 .button-start{
@@ -103,11 +138,7 @@ h1{
     cursor: pointer;
 }
 
-.down-arrow{
-    display: flex;
-    flex-direction: row;
+.image{
+    padding-left: 30px;
 }
 
-.logo-arrow{
-    padding: 15px;
-}
