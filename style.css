@@ -26,6 +26,11 @@ body{
     margin: 0;
 }
 
+.index-block{
+    padding: 0;
+    margin: 0;
+}
+
 .page-header{
     display: flex;
     flex-direction: row;
@@ -116,6 +121,8 @@ text-decoration: underline;
     font-family: 'Mulish', sans-serif;
     font-size:20px;
     padding-left: 30px;
+    line-height: 30px;
+    color: #696871;
 }
 
 .btn-main{
@@ -144,5 +151,58 @@ text-decoration: underline;
     display: flex;
     justify-content: space-around;
     padding-top: 100px;
+    padding-left: 30px;
+}
+
+.index-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-image{
+    width: 348.5px;
+    padding-top: 150px;
+}
+
+.index-info{
+    width: 556px;
+    height: 229px;
+    padding-top: 250px;
+}
+
+h2{
+    font-family:'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    padding-left: 30px;
+}
+
+.text-info{
+    width: 459px;
+    font-family: 'Mulish', sans-serif;
+    font-size:20px;
+    line-height: 30px;
+    padding-left: 30px;
+    color:#696871;
+}
+
+.metrics-block{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+
+.metrics-info{
+    width: 556px;
+    height: 229px;
+    padding-top: 250px;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.metrics-img{
+    width: 346.37px;
+    padding-top: 150px;
     padding-left: 30px;
 }
